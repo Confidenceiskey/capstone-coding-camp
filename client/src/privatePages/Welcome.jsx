@@ -53,7 +53,6 @@ class AcceptedScreen extends Component {
 
   render () {
     const { isLeftNavExpanded, screenSize, showSwitch } = this.state;
-    console.log(screenSize);
     return (
       <Page>
         { isLeftNavExpanded && screenSize === 'large' ?
